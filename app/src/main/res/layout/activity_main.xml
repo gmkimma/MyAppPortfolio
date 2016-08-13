@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#9fa8da"
+    tools:context="com.gregkimma.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_nanodegree_apps"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/CustomButtonStyle"
+            android:layout_marginTop="31dp"
+            android:onClick="message1"
+            android:text="@string/popular_movies"/>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CustomButtonStyle"
+            android:onClick="message2"
+            android:text="@string/stock_hawk"/>
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CustomButtonStyle"
+            android:onClick="message3"
+            android:text="@string/build_it_bigger"/>
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/CustomButtonStyle"
+            android:onClick="message4"
+            android:text="@string/make_your_app_material"/>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CustomButtonStyle"
+            android:onClick="message5"
+            android:text="@string/go_ubiquitous"/>
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CustomButtonStyle"
+            android:background="#ff0000"
+            android:onClick="message6"
+            android:text="@string/capstone"/>
+    </LinearLayout>
+
+</ScrollView>
